@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family:'poppins', sans-serif ;
+    box-sizing: border-box;
+}
+body{
+ background: #081b29;
+ color: #ededed;   
+}
+.navigation{
+display: flex;
+justify-content: space-between;
+width: 100%;
+padding: 20px 50px;
+position: fixed;
+top:0;
+left : 0 ;
+right: 0;
+background-color: rgba(249, 249, 249, 0.382);
+}
+
+.navigation .navigation-logo{
+    color: black;
+    font-size: 25px;
+    font-weight: 600;
+    text-decoration:none;
+}
+.navbar a {
+    
+    font-size: 20px;
+    color: #ededed;
+    border: #081b29;
+    /* display: flex; */
+    /* justify-content: ; */
+    margin-right: 30px;
+    font-weight: 500;
+}
+.navbar a:hover ,.navbar a.active 
+{
+    color: aqua;
+}
+.Home{
+    margin-top: 150px ;
+    margin-left: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.home-content h1{
+    text-decoration: #ededed;
+    font-size: 50px;
+    font-weight: 600;
+    line-height: 1.5;
+    margin-top: 20px;
+
+}
+.home-content h3{
+    color: red;
+    font-size: 35px;
+    font-weight: 300;
+    margin-top: 10px;
+}
+.home-content p{
+    margin-top: 50px;
+    color: #ededed;
+}
+.btn-box{
+    margin-top: 20px;
+    display: flex;
+    gap: 10px;
+    font-size: 20px;
+    align-items: center;
+
+}
+.btn-box1{
+    border:2px solid aqua;
+    border-radius: 10px;
+    padding: 4px 8px ;
+    color: black;
+text-decoration: none;
+background-color: aqua;
+}
+.btn-box2{
+    border:2px solid aqua;
+    border-radius: 10px;
+    padding: 4px 8px ;
+    color: aqua;
+    text-decoration: none;
+}
+
+
+
